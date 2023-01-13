@@ -1,0 +1,130 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+* { padding : 0; margin : 0;}
+
+html, body {
+
+    margin: 0;
+
+    height: 100%;
+
+
+}
+<!-- header -->
+ .my-header{ position:fixed; width:100%; padding:0px; margin:0px }
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 8px;
+    margin-bottom:20px;
+}
+.swiper-pagination-bullet {
+  
+    background: #FFFFFF9C;
+  opacity: 0.6;
+}
+
+body{ -ms-overflow-style: none; } ::-webkit-scrollbar { display: none; }
+
+
+.kboard-default-poweredby {
+ 
+ 
+    display: none;
+}
+a.kboard-default-button-small, input.kboard-default-button-small, button.kboard-default-button-small {
+  
+    font-size: 13px;
+   
+    color: #fff!important;
+    background: #000!important;
+
+}
+
+<!-- kboard -->
+#kboard-default-list .kboard-pagination .kboard-pagination-pages li:hover a, #kboard-default-list .kboard-pagination .kboard-pagination-pages li.active a {
+    
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+
+    background-color: #fff;
+}
+
+#kboard-default-list .kboard-list tbody tr.kboard-list-notice {
+    background-color: #fff;
+}
+
+.kboard-default-new-notify {
+ 
+    background-color: #2E5BA7;
+   
+}
+
+#kboard-default-document .kboard-button-action {
+  
+    padding: 7px 10px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    background: none;
+    background-color: white;
+    cursor: pointer;
+    vertical-align: middle;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+#kboard-default-document .kboard-title h1 {
+    margin: 0;
+    padding: 20px 0px;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+ 
+}
+
+.kboard-pure-gallery-poweredby {display: none}
+#kboard-pure-gallery-list .kboard-pure-gallery-list .kboard-list-item .kboard-list-title {
+;
+    font-size: 16px;
+    font-weight: 500;
+
+;
+    line-height: 20px;
+}
+#kboard-pure-gallery-list .kboard-pure-gallery-list .kboard-list-item .kboard-list-user {
+
+    font-size: 13px;
+}
+#kboard-pure-gallery-list .kboard-category .kboard-category-list li a {
+    display: block;
+    padding: 10px 10px 8px 10px;
+    font-size: 14px;
+    border: 1px solid #ededed;
+    text-decoration: none;
+    text-shadow: none;
+    box-shadow: none;
+    color: #515151;
+}
+#kboard-pure-gallery-list .kboard-category .kboard-category-list li.kboard-category-selected a {
+    font-weight: bold;
+    /* border-bottom: 2px solid #545861; */
+    color: #fff;
+    background-color: #222;
+}
+.product__title_container{padding:0 calc(8% - 10px);}
+.product__title_container, .product__title_list{width:100%; max-width:100%;}
+.product__title_list{display:flex;justify-content:flex-start;}
+.product__title_item{cursor:pointer;list-style: none;color:#787878;font-family:"Roboto", Sans-serif;font-weight:500;font-size:13px;letter-spacing:1px;margin:0 8px;}
+.product__title_item:hover{color:#5f86c4;}
+.product__title_item:first-child, .product__title_item:last-child{margin:0;}</style>
+<!-- end Simple Custom CSS and JS -->
